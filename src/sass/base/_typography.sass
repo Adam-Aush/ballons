@@ -1,0 +1,76 @@
+
+body
+    font-family: "Roboto" , sans-serif
+    font-weight: 400
+    color: #777777
+    font-size: $font-size-paragraph
+    letter-spacing: .2rem
+    padding: 5rem
+    background-color: white
+
+.title-first
+    color: #FFFFFF
+
+    &__main
+        display: block
+        font-weight: 800
+        font-size: 5rem
+        text-transform: uppercase
+        line-height: 6rem
+        letter-spacing: 1rem
+        margin-bottom: 1rem
+        animation-name: leftToRight
+        animation-duration: 1s
+        animation-delay: 1s
+        animation-timing-function: easy
+        backface-visibility: hidden
+
+    &__secondary
+        display: block
+        font-weight: 100
+        font-size: 4rem
+        line-height: 4.8rem
+        letter-spacing: .5rem
+        animation-name: rightToLeft
+        animation-duration: 1s
+        animation-delay: 1s
+        animation-timing-function: easy
+        backface-visibility: hidden
+        margin-bottom: 6.5rem
+
+.fly_title
+    text-align: center
+    margin-bottom: 8rem
+.fly_desc__title
+    color: $color-brown-light
+    font-family: 'Lato'
+    font-style: normal
+    font-weight: 800
+    font-size: 3.6rem
+    line-height: 4.3rem
+    letter-spacing: 1rem
+    background: linear-gradient(90.05deg, rgba($color-brown-light, 0.7) 0.03%, rgba($color-black, 0.7) 99.94%)
+    background-clip: text
+    color: transparent
+    transition: .2s all
+    backface-visibility: hidden
+    &:hover
+        transform: skew(2deg, 2deg) scale(1.1)
+        text-shadow: 0rem .4rem .4rem $color-brown-light
+
+.wrapper_text__top
+    width: 48.3rem
+    margin-bottom: 3rem
+
+.wrapper_text__bottom
+    width: 53.2rem
+    margin-bottom: 3rem
+    margin-right: 6.7rem
+
+.title-third
+    margin-bottom: 1rem
+    font-family: 'Lato'
+    font-style: normal
+    font-weight: 400
+    font-size: $font-size-paragraph
+    letter-spacing: .2rem
